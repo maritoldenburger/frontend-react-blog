@@ -1,0 +1,36 @@
+a {
+    font-weight: 700;
+}
+
+.navigation {
+    background-color: #2d2f39;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-basis: 90px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.default-link {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.active-link {
+    color: var(--color-primary);
+    text-decoration: underline 1px;
+    text-underline-offset: 3px;
+}
+
+.nav-logo{
+    max-width: 200px;
+}
