@@ -1,0 +1,38 @@
+.new-post-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 600;
+}
+
+.new-post-form label {
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-post-form textarea, .new-post-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #dadbe2;
+    outline: none;
+    resize: none;
+    margin: 3px 0;
+}
+
+.new-post-form button {
+    background-color: var(--color-primary);
+    font-weight: 600;
+    border: 1px transparent;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-post-form button:active {
+    transform: scale(0.98);
+}
+
+
