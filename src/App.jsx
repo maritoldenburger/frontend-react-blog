@@ -1,6 +1,5 @@
-import './App.css'
-import {Routes, Route} from 'react-router-dom';
-import logo from './assets/logo-white.png'
+import "./App.css"
+import {Routes, Route} from "react-router-dom";
 import Home from "./pages/home/Home.jsx";
 import NewPost from "./pages/newPost/NewPost.jsx";
 import NotFound from "./pages/notFound/NotFound.jsx";

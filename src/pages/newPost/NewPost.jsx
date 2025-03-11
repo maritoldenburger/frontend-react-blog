@@ -1,4 +1,4 @@
-import './NewPost.css'
+import "./NewPost.css"
 
 function NewPost() {
     return (

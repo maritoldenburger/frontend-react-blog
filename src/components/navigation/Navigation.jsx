@@ -1,6 +1,6 @@
-import './Navigation.css'
-import logoMedium from '/src/assets/logo-medium.png'
-import {NavLink} from 'react-router-dom';
+import "./Navigation.css"
+import logoMedium from "/src/assets/logo-medium.png"
+import {NavLink} from "react-router-dom";
 
 function Navigation() {
     return (
