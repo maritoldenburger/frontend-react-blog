@@ -32,7 +32,7 @@ function Blogpost() {
     return (
         <div className="post-container">
             {loading && <span className="loader"/>}
-            {error && <p>Oeps! Er is iets misgegaan bij het ophalen van de post: {error}</p>}
+            {error && <p>Oeps! Er is iets misgegaan bij het ophalen van de posts. Probeer het opnieuw.</p>}
             {post && post.title && post.subtitle ? (
                 <>
                     <h1>{post.title}</h1>

@@ -35,4 +35,13 @@
     transform: scale(0.98);
 }
 
+.post-success a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.post-error p {
+    color: #d72f1d;
+}
+
 
