@@ -1,0 +1,18 @@
+.homepage {
+    align-content: center;
+}
+
+.homepage {
+    align-content: center;
+}
+
+.homepage figcaption {
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.homepage-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
